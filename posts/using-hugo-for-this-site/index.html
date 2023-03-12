@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta name="description" content="Hey there!
+Our resident nerd, who shall remain nameless&hellip; made this site using the Hugo framework.
+Earlier this morning they had this to say about the experience:
+Hugo is what&rsquo;s known as a framework, which come in various forms and assist in building a website. For this site we had a basic pre-existing design written in plain html/css and the brief was to take away the tedious task of manually editing code for each post and be able to make quick simple changes across the site.">
+	
+	
+	<link rel="preload" href="/fonts/KaushanScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/fonts/SourceSerifPro-Light.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" type="text/css" href="/blog.css">
+	<title>Using Hugo for This Site</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@themagazineblog" />
+	<meta name="twitter:creator" content="@themagazineblog" />
+	
+	<meta name="twitter:title" content="Helpful Information: Using Hugo for This Site" />
+	<meta name="twitter:description" content="Hey there!
+Our resident nerd, who shall remain nameless&hellip; made this site using the Hugo framework.
+Earlier this morning they had this to say about the experience:
+Hugo is what&rsquo;s known as a framework, which come in various forms and assist in building a website. For this site we had a basic pre-existing design written in plain html/css and the brief was to take away the tedious task of manually editing code for each post and be able to make quick simple changes across the site." />
+	<meta name="twitter:image" content="https://themagazineblog.com/images/using-hugo-for-this-site.jpg" />
+	<meta name="twitter:image:alt" content="Hugo logo (Apache V2.0)" />
+	
+
+</head>
+
+<body id="top">  
+
+
+<h2><a class="return" href="/index.html#00-10-1-3-2021">&#8617;</a>Magazine
+</h2>
+
+
+<main>
+<div class="page wrapper">
+	<section>
+		<h4><i>Helpful Information:</i>&nbsp; <b>Using Hugo for This Site</b></h4>
+		<p>Hey there!</p>
+<p>Our resident nerd, who shall remain nameless&hellip;  made this site using the Hugo framework.<br>
+Earlier this morning they had this to say about the experience:</p>
+<p>Hugo is what&rsquo;s known as a framework, which come in various forms and assist in building a website.  For this site we had a basic pre-existing design written in plain html/css and the brief was to take away the tedious task of manually editing code for each post and be able to make quick simple changes across the site.  You can think of it as a simplified version of wordpress, the main difference being that the site is assbmbled on your computer as a fixed chunk of code, which can be edited in the traditional way and just directly uploaded to the root html directory of your hosting service - no apps necessary.<br>
+Hugo is a good choice for this as it is designed for what&rsquo;s known as &lsquo;static&rsquo; sites - no nothing to do with making your hair stand on end - this just means the content doesn&rsquo;t update in response to user input, like say an e-commerce site that displays products and allows logins etc.  Using hugo we would be able to convert the existing code to a template and the posts could be then written in markdown which is a simple format using hash marks to denote headings, ‘&gt;’ for quotes, the ‘|’ symbol to create tables etc.  This vastly streamlines the process of writing and publishing posts.  It&rsquo;s also easy to tag or categorise posts, add images and group posts together in a list as on the Magazine 
+<a href="/index.html">front page</a>
+.</p>
+<p>The typical approach to using this framework is to download a ‘theme’ which is a pre-made template where all the hard work is done for you.  If you find a theme that suits your purposes then go ahead, this is the best way and saves a lot of effort.  However, for this application given the extant code and clear design specification, we needed to create our own template.  This inevitably involved a lot of headscratching and some late nights - but we got there in the end!  In general Hugo is fairly straightforward and quite - as the SV types would say - “auto-magical”; but there can be some quite frustrating moments that require either a deep-dive into the code or a quick cobbled together hack at least.  We&rsquo;ll leave you to guess which one we recommend and which we tended to embrace&hellip;</p>
+<p>One particular moment was an annoying phenomenon whereby the list of posts mention above - instead of providing a link through to each post itself- would redirect to …a list of the posts.  Our solution was to alter the &lsquo;context&rsquo; of the code segment (a word you&rsquo;ll see coming up a lot in this, ahem, context) by adding <code>{{ range .Section }}</code> directly preceeding the list code.  This is not a ‘correct’ solution as it effectively creates a nested list of posts within a list of sections, which given that we had only one section is OK …for now.</p>
+<p>Other gotchas include setting <code>hugo server -D -disableFastRender</code> options (this is the command you type from the commandline to preview the site locally.) Related to this - refreshing or emptying your browser cache - is sometimes necessary before some changes, especially to stylesheets will appear. All interactions with Hugo are via the command line interface or CLI, which is a fancy way of saying you type commands in a terminal program instead of clicking on buttons and menus etc. in a graphical user interface which is more typical. The CLI is considered by some to be more efficient and quicker, and we had no complaints due to familiarity with open source unix-like operating systems. The original CLI was a teletype - a kind of electro-mechanical typewriter which operated like a kind of primitive fax-machine (remember those?) to relay commands to and from the computer which was usually the size of a large cabinet!</p>
+<p>One hack we found which we would tentatively class in the ‘almost elegant’ category was a way to format return links.  The brief was that links back to the main page would return to the same place on the list as you were before, to save scrolling back again.  While there are other more ‘proper’ ways to do this, we found that formatting the id of the index post link as the hyphenated date of the post, and the href of the return link likewise, gave us the result needed without too much websearching and blank stares.  The basic code is <code>id=&quot;{{ .PublishDate.Format &quot;04-03-2-1-2006&quot; }}&quot;</code> and <code>href=&quot;/index.html#{{ .PublishDate.Format &quot;04-03-2-1-2006&quot; }}&quot;</code>.  The date in the code is the way golang (more on this below) lets you format dates by re-arranging their prespecified date in the way you want it presented.  This is detailed in the documentation&rsquo;s familiar 
+<a href="https://www.golang.org/pkg/time/#pkg-constants" target="_blank" rel="noopener noreferrer">brusque manner</a>
+.</p>
+<p>Hugo is written in Go, or more searchably, golang. The language is comparitively new to the scene and is the brainchild of the legendary Ken Thompson along with Rob Pike, Robert Griesemer, and many other valuable contributions by various open-source participants. The former two characters being behind the now ubiquitous UTF-8 encoding that delivers the text of this website and indeed most of the world wide web today. Ken Thompson himself was a crucial force within the bell labs creation of Unix, an ancient operating system whose legacy surprisingly enough infuses many of todays core software - Linux, MacOS, Android, FreeBSD to name a few.  But here at Magazine, we insist that scenious - not genius - is the true phenomenon to be in awe of - á la Eno.</p>
+<p>We are well aware that this ‘newbie’ style of programmming is nothing to be proud of, we are simply sharing our experience to help those who similarly favour an ad-hoc half-in-half-out approach!</p>
+
+	</section>
+	<section>
+		<p>
+		<br>
+		<br>
+		<em style="font-size:0.95em; color:grey;">&infin;&nbsp; Last edit/update on: 19 / 5 / 2021
+		</em>
+		</p>
+	</section>
+
+</div>
+
+<div class="page wrapper">
+	<section class="photo" >
+		<img src="/images/using-hugo-for-this-site.jpg" alt="Hugo logo (Apache V2.0)"/>
+		<figcaption>Hugo logo (Apache V2.0)</figcaption>
+	</section>
+</div>
+
+</main>
+	
+
+<div class="pages" style="float:left">
+	<a href="/posts/magazine-recommends...-americanah/">&lt;&lt;&emsp;Americanah</a>
+</div> 
+
+
+
+<div class="pages" style="float:right">
+	<a href="/posts/his-n-hers/">His &#39;N&#39; Hers&emsp;&gt;&gt;</a>
+</div> 
+
+
+<footer >
+	<a style="padding: 0 0.5vw;" href="/index.html#00-10-1-3-2021" >main</a>
+	|
+	<a style="padding: 0 0.5vw;" href="/explore"> explore </a>
+	|
+	<a style="padding: 0 0.5vw;" href="/posts/using-hugo-for-this-site/"> top &uarr; </a>
+</footer>
+
+
+
+
+</body>
+
+</html>

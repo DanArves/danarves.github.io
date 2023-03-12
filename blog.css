@@ -1,0 +1,442 @@
+/*  One for the html/css purists  */
+/* not wholly refactored and refined yet */
+
+:root {
+  --grey: #404040;
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  unicode-range: U+4D,U+61,U+65,U+67,U+69,U+6E,U+7A;
+  src: url(/fonts/KaushanScript-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'SourceSerifPro-Light';
+  unicode-range: U+0000-03FF,U+2000-214F;
+  src: url(/fonts/SourceSerifPro-Light.woff2);
+}
+
+@font-face {
+  font-family: 'SourceSerifPro-Regular';
+  unicode-range: U+0000-03FF,U+2000-214F;
+  src: url(/fonts/SourceSerifPro-Regular.woff2);
+}
+
+
+body {
+  background-color: white;
+  line-height: 1.6;
+  color: var(--grey);
+  font-family: 'SourceSerifPro-Light', courier, arial;
+  font-size: 16px;
+  margin: auto;
+/* to prevent unnecessary h-scroll */
+  width: 99vw;
+}
+
+
+@media only screen and (max-width:300px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+h1 {
+  margin: -.1em 0 .1em 0;
+  color: black;
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-size: calc( 9vw + 6vh );
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  margin: .5em;
+  color: black;
+  font-family: 'Kaushan Script';
+  font-size: calc( 2vw + 1vh + 2em );
+  letter-spacing: 0.01em;
+}
+
+a {
+  display:inline-block;
+  text-decoration: none;
+  color: #767676;
+}
+nav a {
+  padding: 0.1em calc(0.4vw + 0.3em);
+  color: hsl(0, 0%, 40%);
+  font-size: calc(0.84em + 0.2vw);
+}
+
+section > a {
+  display:inline-block;
+}
+
+a.text {
+  color: hsl(0, 0%, 20%);
+}
+a.return {
+  padding-right: 0.8em;
+  font-size: 0.8em;
+}
+
+a:hover {
+  color: #aaaaaa;
+}
+
+a[href^="http"] {
+  text-decoration: underline;
+}
+
+a[href^="http"]:visited {
+  color: #551A8B;
+}
+ 
+nav {
+  width: 80vw;
+  padding: 0 3vw;
+  margin: 4em auto;
+  text-align: right;
+/*  border-top: 1px solid hsl(0, 0%, 90%); */
+  color: var(--grey);
+}
+
+main {
+  margin: auto;
+  font-size: 1em;
+  min-width: 300px;
+  max-width: 140ch;
+  min-height: 60vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  max-width: calc(99vw - 0.5em);
+  overflow: auto;
+  clear: right;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5em auto 10em auto;
+  min-height: 20em;
+}
+
+.page {
+  margin: 4em 0;
+}
+
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  overflow: auto;
+  margin: 0 0.3em;
+}
+
+.page h3 {
+  margin-top: 2em;
+}
+
+.pagetitle {
+  width: max-content;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.65em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-left:0.3em;
+}
+
+section {
+  width: 55%;
+  min-width: 340px;
+  color: hsl(0, 0%, 20%);
+  background-image: radial-gradient(ellipse at 0% 0%, white 60%, rgba(255,255,255,0.97) 64%, rgba(255,255,255,0.86) 70%, rgba(0,0,0,0) 100%);
+  }
+
+/* section > a {
+  animation-name: glow;
+  animation-duration: 1.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes glow {
+	0% {box-shadow: none;}
+	25% {box-shadow: 0 0 2px 4px hsl(261, 0%, 90%) inset;} /* #ffffb3
+	100% {box-shadow: none;} 
+} */
+
+p {
+  margin: 1em;
+  clear: both;
+}
+
+p.column {
+  max-height: 20em;
+  overflow: hidden;
+  column-count: 2;
+  margin-left: 2em;
+  clear: none;
+}
+
+p.column a {
+  margin: 0.5em 0;
+  line-height: 1.2;
+}
+
+blockquote {
+  font-style: italic;
+  color: var(--grey);
+  margin: 2em 4em 0 4em;
+  font-family: 'SourceSerifPro-Regular', 'NotoSerif-Regular', Georgia, serif;
+}
+
+blockquote + blockquote {
+	margin: 0 4em;
+}
+
+cite {
+  float: right;
+  margin: 1em 0 2em 0;
+}
+
+blockquote + p {
+  margin-top: 2em;
+}
+
+b {
+  font-style: normal;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+}
+
+blockquote b {
+  margin-left: -2em;
+}
+
+strong {
+  font-family: 'Kaushan Script';
+  font-size: 1.05em;
+  padding: 0 0.1em;
+}
+
+code {
+  font-size: 0.9em;
+}
+
+table {
+  margin: 1em auto 2em auto;
+}
+
+th {
+  padding-bottom: 0.5em;
+  text-decoration: underline;
+  font-weight: initial;
+}
+
+td { 
+  padding: 0.25em 0.5em;
+}
+
+i {
+  padding-right: 0.45ch;
+}
+
+em {
+  padding-right: 0.45ch;
+}
+
+::selection {
+  color:black;
+  background: #010101;
+}
+
+a.footnote-ref {
+  margin: 0;
+  display: initial;
+}
+
+.i {
+  float: right;
+  margin-right: 1em;
+  color: var(--grey);
+}
+
+time {
+  float: left;
+  clear: right;
+  color: var(--grey);
+  margin: 0.5em 1em;
+}
+
+.photo {
+  float: right;
+  overflow: hidden;
+  min-width: min-content;
+}
+
+img {
+  max-height: 70vh;
+  opacity: 0.9;
+  max-width: 50vw;
+  margin: auto;
+}
+
+img[src$=".svg"] {
+  max-width: 12cm;
+  max-height: 12cm;
+  opacity: 0.4;
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  transform: translateY(-10%)
+}
+
+figcaption {
+  text-align: center;
+  color: var(--grey);
+  font-style: italic;
+}
+
+mark {
+  background-color: white;
+  font-size: 1.5em;
+}
+
+hr {
+  margin: 6em 1em 2em 0;
+}
+
+section.footnotes {
+  width: 80%;
+  margin: 1.5em 0 0 0;
+  padding-bottom: 0;
+}
+
+div.pages {
+  border: 1px solid var(--grey);
+  width: 20%;
+  min-width: 150px;
+  margin: 2em 0 6em 0;
+}
+
+div.pages a {
+  display: block;
+  padding: 0.5em 1em;
+}
+
+footer {
+  margin: 2em auto;
+  width: 25%;
+  min-width: max-content;
+  padding: 2em;
+  clear: both;
+  border-top: 1px solid var(--grey);
+  border-radius: 20px;
+  text-align: center;
+}
+
+#f {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-family: verdana, sans-serif;
+  font-size: 3em;
+  opacity: 1;
+}
+
+/* gltich animation below adapted from css-tricks.com */
+.glitch {
+	position: relative;
+}
+
+@keyframes glitch-anim {
+	0% {
+		clip-path: inset(0 0 0 0);
+	}
+	82% {
+		clip-path: inset(0 0 0 0);
+	}
+	85% {
+		clip-path: inset(40% 0 61% 0);
+	}
+	88% {
+		clip-path: inset(92% 0 1% 0);
+	}
+	91% {
+		clip-path: inset(43% 0 27% 0);
+	}
+	94% {
+		clip-path: inset(5% 0 58% 0);
+	}
+	97% {
+		clip-path: inset(54% 0 7% 0);
+	}
+	100% {
+		clip-path: inset(58% 0 43% 0);
+	}
+}
+
+@keyframes glitch-anim-2 {
+	0% {
+		clip-path: inset(0 0 0 0);
+	}
+	88% {
+		clip-path: inset(0 0 0 0);
+	}
+	90% {
+		clip-path: inset(2% 0 96% 0);
+	}
+	92% {
+		clip-path: inset(15% 0 24% 0);
+	}
+	94% {
+		clip-path: inset(44% 0 6% 0);
+	}
+	96% {
+		clip-path: inset(81% 0 68% 0);
+	}
+	98% {
+		clip-path: inset(97% 0 36% 0);
+	}
+	100% {
+		clip-path: inset(43% 0 8% 0);
+	}
+}
+/*
+.glitch::before, .glitch::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+}
+*/
+.glitch::before {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	left: 0.3vw;
+	animation: glitch-anim 7s infinite linear 63s alternate-reverse;
+}
+.glitch::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	left: -0.2vw;
+	animation: glitch-anim-2 11s infinite linear 60s alternate-reverse;
+}
