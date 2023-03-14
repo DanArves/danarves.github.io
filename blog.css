@@ -77,21 +77,22 @@ section > a {
 a.text {
   color: hsl(0, 0%, 20%);
 }
+
 a.return {
-  padding-right: 0.8em;
+  padding-right: 0.5em;
   font-size: 0.8em;
+  text-decoration: none;
 }
 
 a:hover {
   color: #aaaaaa;
 }
 
-a[href^="http"] {
-  text-decoration: underline;
-}
-
 a[href^="http"]:visited {
   color: #551A8B;
+}
+a[href^="http"]:hover {
+  color: #aaaaaa;
 }
  
 nav {
@@ -100,7 +101,7 @@ nav {
 }
 
 main {
-  margin: auto;
+  margin: 2em auto;
   font-size: 1em;
   min-width: 300px;
   max-width: 140ch;
@@ -334,8 +335,6 @@ footer {
   min-width: max-content;
   padding: 2em;
   clear: both;
-  border-top: 1px solid var(--grey);
-  border-radius: 20px;
   text-align: center;
 }
 
