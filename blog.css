@@ -115,7 +115,7 @@ main {
   clear: right;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 5em auto;
+  margin: calc(5em + 5vw) auto;
   min-height: 20em;
 }
 
