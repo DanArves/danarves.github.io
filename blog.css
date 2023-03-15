@@ -43,7 +43,7 @@ body {
 }
 
 h1 {
-  margin: -.1em 0 .1em 0;
+  margin: 0 8px .1em 0;
   color: black;
   text-align: center;
   font-family: 'Kaushan Script';
@@ -102,7 +102,7 @@ nav {
 }
 
 main {
-  margin: 2em auto;
+  margin: 2em 5px;
 /*  font-size: 1em;*/
   min-width: 300px;
   max-width: 120ch;
@@ -151,7 +151,7 @@ h4 {
 }
 
 section {
-  max-width: 35em;
+  max-width: 71ch;
   min-width:calc(400px+0.5vw);
   color: hsl(0, 0%, 20%);
   background-image: radial-gradient(ellipse at 0% 0%, white 60%, rgba(255,255,255,0.97) 64%, rgba(255,255,255,0.86) 70%, rgba(0,0,0,0) 100%);
@@ -267,9 +267,9 @@ time {
 }
 
 img {
-  max-height: 70vh;
+  max-height: 95vh;
   opacity: 0.9;
-  max-width: 35em;
+  max-width: 100vw;
   margin: auto;
 }
 
