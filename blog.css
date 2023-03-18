@@ -152,7 +152,7 @@ h4 {
 
 section {
   max-width: 71ch;
-  min-width:calc(400px+0.5vw);
+  min-width: calc(400px + 0.5vw);
   color: hsl(0, 0%, 20%);
   background-image: radial-gradient(ellipse at 0% 0%, white 60%, rgba(255,255,255,0.97) 64%, rgba(255,255,255,0.86) 70%, rgba(0,0,0,0) 100%);
   }
