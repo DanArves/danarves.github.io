@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Helpful Information: on Magazine Blog</title>
-    <link>http://themagazineblog.com/tags/helpful-information/</link>
-    <description>Recent content in Helpful Information: on Magazine Blog</description>
+    <title>Helpful Information: on Magazine</title>
+    <link>http://magzine.uk/tags/helpful-information/</link>
+    <description>Recent content in Helpful Information: on Magazine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 16 May 2021 13:36:56 +0100</lastBuildDate><atom:link href="http://themagazineblog.com/tags/helpful-information/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 13:36:56 +0100</lastBuildDate><atom:link href="http://magzine.uk/tags/helpful-information/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Search</title>
-      <link>http://themagazineblog.com/posts/how-to-search/</link>
+      <link>http://magzine.uk/posts/how-to-search/</link>
       <pubDate>Sun, 16 May 2021 13:36:56 +0100</pubDate>
       
-      <guid>http://themagazineblog.com/posts/how-to-search/</guid>
+      <guid>http://magzine.uk/posts/how-to-search/</guid>
       <description>On this site references are provided where they may be helpful, excepting where the author has no more inspiration for a web search than is available from reading the text. That is to say - do your own critical research. On that basis, here are some tips we have found useful to that end.</description>
     </item>
     
     <item>
       <title>Using Hugo for This Site</title>
-      <link>http://themagazineblog.com/posts/using-hugo-for-this-site/</link>
+      <link>http://magzine.uk/posts/using-hugo-for-this-site/</link>
       <pubDate>Mon, 01 Mar 2021 22:00:58 +0000</pubDate>
       
-      <guid>http://themagazineblog.com/posts/using-hugo-for-this-site/</guid>
+      <guid>http://magzine.uk/posts/using-hugo-for-this-site/</guid>
       <description>Hey there!
 Our resident nerd, who shall remain nameless&amp;hellip; made this site using the Hugo framework.
 Earlier this morning they had this to say about the experience:

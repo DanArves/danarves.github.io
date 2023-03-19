@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Magazine Blog</title>
-    <link>http://themagazineblog.com/tags/</link>
-    <description>Recent content in Tags on Magazine Blog</description>
+    <title>Tags on Magazine</title>
+    <link>http://magzine.uk/tags/</link>
+    <description>Recent content in Tags on Magazine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 26 May 2021 20:50:51 +0100</lastBuildDate><atom:link href="http://themagazineblog.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 May 2021 20:50:51 +0100</lastBuildDate><atom:link href="http://magzine.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prose:</title>
-      <link>http://themagazineblog.com/tags/prose/</link>
+      <link>http://magzine.uk/tags/prose/</link>
       <pubDate>Wed, 26 May 2021 20:50:51 +0100</pubDate>
       
-      <guid>http://themagazineblog.com/tags/prose/</guid>
+      <guid>http://magzine.uk/tags/prose/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Magazine Recommends…</title>
-      <link>http://themagazineblog.com/tags/magazine-recommends/</link>
+      <link>http://magzine.uk/tags/magazine-recommends/</link>
       <pubDate>Mon, 24 May 2021 19:21:42 +0100</pubDate>
       
-      <guid>http://themagazineblog.com/tags/magazine-recommends/</guid>
+      <guid>http://magzine.uk/tags/magazine-recommends/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Helpful Information:</title>
-      <link>http://themagazineblog.com/tags/helpful-information/</link>
+      <link>http://magzine.uk/tags/helpful-information/</link>
       <pubDate>Sun, 16 May 2021 13:36:56 +0100</pubDate>
       
-      <guid>http://themagazineblog.com/tags/helpful-information/</guid>
+      <guid>http://magzine.uk/tags/helpful-information/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Inexpert View…</title>
-      <link>http://themagazineblog.com/tags/an-inexpert-view/</link>
+      <link>http://magzine.uk/tags/an-inexpert-view/</link>
       <pubDate>Sat, 01 May 2021 17:29:33 +0100</pubDate>
       
-      <guid>http://themagazineblog.com/tags/an-inexpert-view/</guid>
+      <guid>http://magzine.uk/tags/an-inexpert-view/</guid>
       <description></description>
     </item>
     
     <item>
       <title>#muglife</title>
-      <link>http://themagazineblog.com/tags/#muglife/</link>
+      <link>http://magzine.uk/tags/#muglife/</link>
       <pubDate>Fri, 02 Apr 2021 18:31:54 +0100</pubDate>
       
-      <guid>http://themagazineblog.com/tags/#muglife/</guid>
+      <guid>http://magzine.uk/tags/#muglife/</guid>
       <description></description>
     </item>
     
