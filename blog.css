@@ -325,15 +325,6 @@ footer {
   text-align: center;
 }
 
-#f {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  font-family: verdana, sans-serif;
-  font-size: 3em;
-  opacity: 1;
-}
-
 /* gltich animation below adapted from css-tricks.com */
 .glitch {
 	position: relative;
