@@ -65,9 +65,9 @@ a {
   color: #767676;
 }
 nav a {
-  padding: 0.1em calc(0.4vw + 0.3em);
+  padding: 0.5em 0 0 0;
   color: hsl(0, 0%, 40%);
-  font-size: calc(0.9em + 0.4vw);
+  font-size: 0.9em;
 }
 
 section > a {
@@ -95,10 +95,16 @@ a[href^="http"]:visited {
 a[href^="http"]:hover {
   color: #aaaaaa;
 }
+
+a.nav {
+  margin: auto 0.8em;
+  font-size: 1.2em;
+}
  
 nav {
   text-align: center;
   color: var(--grey);
+  font-size: calc(0.9em + 0.4vw);
 }
 
 main {
