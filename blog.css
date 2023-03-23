@@ -4,7 +4,7 @@
 :root {
 /*  --grey: #404040;*/
 	--grey: hsl(33, 0%, 20%);
-  --skin: hsl(33, 95%, 97%);
+  --skin: hsl(33, 95%, 98%);
 }
 
 @font-face {
@@ -31,7 +31,7 @@ body {
   line-height: 1.6;
   color: var(--grey);
   font-family: 'SourceSerifPro-Light', courier, arial;
-  font-size: 16px;
+  font-size: 100%;
   margin: auto;
 /* to prevent unnecessary h-scroll */
   width: 99vw;
@@ -40,12 +40,12 @@ body {
 
 @media only screen and ((max-width:400px) or (max-height:400px)) {
   body {
-    font-size: 14px;
+    font-size: 90%;
   }
 }
 
 h1 {
-  margin: 0 8px .1em 0;
+  margin: 0 0.5em .1em 0;
   color: black;
   text-align: center;
   font-family: 'Kaushan Script';
@@ -109,9 +109,8 @@ nav {
 }
 
 main {
-  margin: 0 5px;
-/*  font-size: 1em;*/
-  min-width: 300px;
+  margin: 0 0.3em;
+  min-width: 19em;
   min-height: 60vh;
   position: relative;
   overflow-x: hidden;
@@ -162,7 +161,7 @@ section {
   max-width: 71ch;
   color: hsl(0, 0%, 20%);
 /*  background-image: radial-gradient(ellipse at 0% 0%, white 60%, rgba(255,255,255,0.97) 64%, rgba(255,255,255,0.86) 70%, rgba(0,0,0,0) 100%);*/
-  background-image: radial-gradient(ellipse at 0% 0%, hsla(33, 95%, 97%, 1) 60%, hsla(33, 95%, 97%, 0.97) 64%, hsla(33, 95%, 97%, 0.86) 70%, hsla(33, 95%, 97%, 0) 100%);
+  background-image: radial-gradient(ellipse at 0% 0%, hsla(33, 95%, 98%, 1) 60%, hsla(33, 95%, 98%, 0.97) 64%, hsla(33, 95%, 98%, 0.86) 70%, hsla(33, 95%, 98%, 0) 100%);
   }
 
 p {
@@ -279,7 +278,7 @@ time {
   float: right;
   color: #999;
   margin: 0.5em 1em;
-  font-size: 14px;
+  font-size: 0.9em;
 }
 
 .photo {
@@ -329,7 +328,7 @@ section.footnotes {
 div.pages {
   border: 1px solid var(--grey);
   width: 20%;
-  min-width: 150px;
+  min-width: 9em;
   margin: 2em 0 6em 0;
 }
 
