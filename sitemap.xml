@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://magzine.uk/tags/an-inexpert-view/</loc>
+    <lastmod>2023-04-18T17:10:35+00:00</lastmod>
+  </url><url>
+    <loc>http://magzine.uk/posts/on-intelligence/</loc>
+    <lastmod>2023-04-18T17:10:35+00:00</lastmod>
+  </url><url>
     <loc>http://magzine.uk/posts/</loc>
-    <lastmod>2023-03-22T22:51:00+00:00</lastmod>
+    <lastmod>2023-04-18T17:10:35+00:00</lastmod>
+  </url><url>
+    <loc>http://magzine.uk/tags/</loc>
+    <lastmod>2023-04-18T17:10:35+00:00</lastmod>
   </url><url>
     <loc>http://magzine.uk/tags/prose/</loc>
     <lastmod>2023-03-14T20:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://magzine.uk/tags/</loc>
-    <lastmod>2023-03-22T22:51:00+00:00</lastmod>
   </url><url>
     <loc>http://magzine.uk/posts/washed-out/</loc>
     <lastmod>2023-03-14T20:00:00+00:00</lastmod>
@@ -25,9 +31,6 @@
   </url><url>
     <loc>http://magzine.uk/posts/how-to-search/</loc>
     <lastmod>2023-03-19T20:32:48+00:00</lastmod>
-  </url><url>
-    <loc>http://magzine.uk/tags/an-inexpert-view/</loc>
-    <lastmod>2023-03-22T22:51:00+00:00</lastmod>
   </url><url>
     <loc>http://magzine.uk/posts/on-the-big-question/</loc>
     <lastmod>2023-03-19T20:36:05+00:00</lastmod>
