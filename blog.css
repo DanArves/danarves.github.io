@@ -198,7 +198,6 @@ p.column a {
 
 blockquote {
   font-style: italic;
-  color: var(--grey);
   margin: 2em 4em 0 4em;
   font-family: 'SourceSerifPro-Regular', 'NotoSerif-Regular', Georgia, serif;
 }
@@ -212,8 +211,9 @@ cite {
   margin: 1em 0 2em 0;
 }
 
-blockquote + p {
-  margin-top: 2em;
+blockquote p {
+  margin: 2em 0;
+  color: grey;
 }
 
 b {
@@ -224,6 +224,7 @@ b {
 
 blockquote b {
   margin-left: -2em;
+  color: hsl(0, 0%, 20%);
 }
 
 strong {
