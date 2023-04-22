@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://magzine.uk/posts/gabbeh/</loc>
+    <lastmod>2023-04-22T19:15:24+00:00</lastmod>
+  </url><url>
+    <loc>http://magzine.uk/tags/magazine-recommends/</loc>
+    <lastmod>2023-04-22T19:15:24+00:00</lastmod>
+  </url><url>
+    <loc>http://magzine.uk/posts/</loc>
+    <lastmod>2023-04-22T19:15:24+00:00</lastmod>
+  </url><url>
+    <loc>http://magzine.uk/tags/</loc>
+    <lastmod>2023-04-22T19:15:24+00:00</lastmod>
+  </url><url>
     <loc>http://magzine.uk/tags/an-inexpert-view/</loc>
     <lastmod>2023-04-22T18:37:01+00:00</lastmod>
   </url><url>
     <loc>http://magzine.uk/posts/on-intelligence/</loc>
-    <lastmod>2023-04-22T18:37:01+00:00</lastmod>
-  </url><url>
-    <loc>http://magzine.uk/posts/</loc>
-    <lastmod>2023-04-22T18:37:01+00:00</lastmod>
-  </url><url>
-    <loc>http://magzine.uk/tags/</loc>
     <lastmod>2023-04-22T18:37:01+00:00</lastmod>
   </url><url>
     <loc>http://magzine.uk/tags/prose/</loc>
@@ -22,9 +28,6 @@
   </url><url>
     <loc>http://magzine.uk/posts/black-secret-technology/</loc>
     <lastmod>2023-03-19T20:00:26+00:00</lastmod>
-  </url><url>
-    <loc>http://magzine.uk/tags/magazine-recommends/</loc>
-    <lastmod>2023-03-22T22:11:21+00:00</lastmod>
   </url><url>
     <loc>http://magzine.uk/tags/helpful-information/</loc>
     <lastmod>2023-03-22T22:09:05+00:00</lastmod>

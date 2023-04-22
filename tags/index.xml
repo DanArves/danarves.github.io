@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Magazine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 18 Apr 2023 15:58:00 +0100</lastBuildDate><atom:link href="http://magzine.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Apr 2023 17:32:40 +0000</lastBuildDate><atom:link href="http://magzine.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magazine Recommends…</title>
+      <link>http://magzine.uk/tags/magazine-recommends/</link>
+      <pubDate>Sat, 22 Apr 2023 17:32:40 +0000</pubDate>
+      
+      <guid>http://magzine.uk/tags/magazine-recommends/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>An Inexpert View…</title>
       <link>http://magzine.uk/tags/an-inexpert-view/</link>
@@ -22,15 +31,6 @@
       <pubDate>Wed, 26 May 2021 20:50:51 +0100</pubDate>
       
       <guid>http://magzine.uk/tags/prose/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magazine Recommends…</title>
-      <link>http://magzine.uk/tags/magazine-recommends/</link>
-      <pubDate>Mon, 24 May 2021 19:21:42 +0100</pubDate>
-      
-      <guid>http://magzine.uk/tags/magazine-recommends/</guid>
       <description></description>
     </item>
     
