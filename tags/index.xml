@@ -6,51 +6,42 @@
     <description>Recent content in Tags on Magazine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 22 Apr 2023 17:32:40 +0000</lastBuildDate><atom:link href="http://magzine.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Apr 2023 17:32:40 +0000</lastBuildDate>
+    <atom:link href="http://magzine.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magazine Recommends…</title>
       <link>http://magzine.uk/tags/magazine-recommends/</link>
       <pubDate>Sat, 22 Apr 2023 17:32:40 +0000</pubDate>
-      
       <guid>http://magzine.uk/tags/magazine-recommends/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>An Inexpert View…</title>
       <link>http://magzine.uk/tags/an-inexpert-view/</link>
       <pubDate>Tue, 18 Apr 2023 15:58:00 +0100</pubDate>
-      
       <guid>http://magzine.uk/tags/an-inexpert-view/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Prose:</title>
       <link>http://magzine.uk/tags/prose/</link>
       <pubDate>Wed, 26 May 2021 20:50:51 +0100</pubDate>
-      
       <guid>http://magzine.uk/tags/prose/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Helpful Information:</title>
       <link>http://magzine.uk/tags/helpful-information/</link>
       <pubDate>Sun, 16 May 2021 13:36:56 +0100</pubDate>
-      
       <guid>http://magzine.uk/tags/helpful-information/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>#muglife</title>
       <link>http://magzine.uk/tags/#muglife/</link>
       <pubDate>Fri, 02 Apr 2021 18:31:54 +0100</pubDate>
-      
       <guid>http://magzine.uk/tags/#muglife/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

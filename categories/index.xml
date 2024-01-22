@@ -5,6 +5,7 @@
     <link>http://magzine.uk/categories/</link>
     <description>Recent content in Categories on Magazine</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="http://magzine.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <atom:link href="http://magzine.uk/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
